@@ -70,7 +70,7 @@ export class AppContainer extends Component {
             </Tooltip>
           </Toolbar>
         </AppBar>
-        <main style={{ width: "600px", margin: "0 auto" }}>
+        <main style={{ maxWidth: "600px", margin: "0 auto", padding: "1rem" }}>
           <Schedule
             hiddenCourses={this.props.hiddenCourses}
             schedule={updatedSchedule}
